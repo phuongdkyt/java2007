@@ -31,7 +31,7 @@ public static int giaiMa(int n) {
 	int z=0;
 	if(sum==0)
 		sum2=3333;
-  while(sum!=0) {
+	while(sum!=0) {
 		int x=sum%10;
 		 if(x==0)
 			 z=3;
@@ -57,7 +57,7 @@ public static int giaiMa(int n) {
 	public static void main(String[] args) {
 	    Scanner scanner=new Scanner(System.in);
 	    System.out.print("Nhap so can giai ma:");  
-	       int n=scanner.nextInt(); 
+	    int n=scanner.nextInt(); 
 	    System.out.println("Ma goc:"+giaiMa(n));  
 
 	}

@@ -11,7 +11,7 @@ public class GiaiThua {
       int n=scanner.nextInt();
       int i=0;
       int giaiThua=1;
-     if(n>=0) {
+      if(n>=0) {
       while(i<n) {
     	  ++i;
     	  giaiThua*=i;
